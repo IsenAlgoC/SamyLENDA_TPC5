@@ -8,6 +8,8 @@ typedef struct Tableau {
 	int eltsCount;// le nombre d’éléments dans le tableau
 } TABLEAU;
 
+//Déclaration des fonctions
+
 TABLEAU NewArray();
 
 int incrementArraySize(TABLEAU* tab, int incrementValue);
